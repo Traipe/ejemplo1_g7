@@ -1,0 +1,30 @@
+pwd -> muestra la ruta (path), donde estamos posicionados
+(print working directory)
+ls -> listar  los archivos y carpetas donde estamos posicionados
+ls -l -> listar  los archivos y carpetas pero con detalles
+ls -la -> listar TODOS los archivos y carpetas (incluidos los ocultos), con informacion detallada
+d rwx r-x r-x -> r= read; w= write; x= execute
+clear -> limpiar la terminal
+cd -> change directory (...uno atrás) (tab rellena nombre por mí)
+cd nombre carpeta -> ingresar a la carpeta
+cd ..-> volver un directorio atrás
+
+******manejo de archivos*****
+touch nombre_archivo.extension -> crear un archivo
+mkdir nombre_carpeta -> crear directorio
+cp nombre_archivo.extension directorio -> copiar un archivo dentro del directorio
+cp -r nombre_carpeta directorio_destino ->copia el contenido de una en otra
+
+mkdir ejercicio1 ejercicio1/assets assets/css assets/js assets/
+rm nombre_archivo.extension o
+rm -rf nombre_directorio -> borrar directorio y TODO su contenido
+
+
+********* GIT ***********
+git --version ->conocer la version instalada de GIT
+
+git config --global user.name "traipe"
+git config --global user.email "jimenatraipe@gmail.com"
+git init -> nos ayuda a inicializar git en el proyecto
+
+
